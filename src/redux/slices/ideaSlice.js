@@ -1,7 +1,7 @@
 import { createAsyncThunk, createSlice } from '@reduxjs/toolkit';
 import axios from 'axios';
 
-const IDEA_URL = 'http://localhost:3000/ideas';
+const IDEA_URL = 'https://ideavault-api-6s2i.onrender.com/ideas';
 
 // GET - Fetch all ideas
 export const fetchIdeas = createAsyncThunk(
